@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- website title -->
+    <title>Nexgenix</title>
+    <!-- Website logo -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Connect tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Connect daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="mx-2 text-[#330B51]">
+    <!-- Navbar section -->
+    <nav class="navbar bg-base-100 shadow-sm">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a>Home</a></li>
+            <a href="./gm.html" target="_blank">About us</a>
+            <li><a>Our services</a></li>
+            <li><a>Our works</a></li>
+          </ul>
+        </div>
+        <a class="text-xl w-20 h-w-20"
+          ><img src="./assets/logo.png" alt=""
+        /></a>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-2 text-xl">
+          <li><a>Home</a></li>
+          <li><a>About us</a></li>
+          <li><a>Our services</a></li>
+          <li><a>Our works</a></li>
+          <li>
+            <a
+              href="#"
+              class="relative px-6 py-2 text-lg font-semibold text-purple-800 bg-white border-2 border-pink-300 rounded-lg shadow-md transition-all hover:bg-pink-300 hover:text-white"
+            >
+              Contact Us
+              <span
+                class="absolute bottom-0 right-0 w-6 h-6 bg-pink-300 rounded-tl-full transition-all hover:bg-white"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-end lg:hidden">
+        <a
+          href="#"
+          class="relative px-6 py-2 text-lg font-semibold text-purple-800 bg-white border-2 border-pink-300 rounded-lg shadow-md transition-all hover:bg-pink-300 hover:text-white"
+        >
+          Contact Us
+          <span
+            class="absolute bottom-0 right-0 w-6 h-6 bg-pink-300 rounded-tl-full transition-all hover:bg-white"
+          ></span>
+        </a>
+      </div>
+    </nav>
+     <!-- Banner section -->
+     <div
+     class="hero min-h-screen bg-[url('./assets/banner1bg.png')] bg-no-repeat bg-contain"
+   >
+     <div class="hero-content flex-col lg:flex-row-reverse gap-24 lg:gap-56">
+       <img
+         src="./assets/GABG.png"
+         class="max-w-full lg:max-w-sm rounded-lg shadow-2xl cursor-pointer"
+       />
+       <div>
+         <h1 class="text-5xl font-bold">Google Ads</h1>
+         <p class="py-6">
+            Maximize your online visibility and connect with the <br> right audience at the right time. Our expert Google Ads <br> management services ensure every dollar of your <br>budget delivers measurable results.
+         </p>
+       </div>
+     </div>
+   </div>
+  </body>
+</html>
