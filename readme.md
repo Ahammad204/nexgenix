@@ -1,6 +1,3 @@
-Here's the updated version of the README file, including the option for a live link and website preview image:
-
----
 
 # Nexgenix - Google Ads Management Website
 
